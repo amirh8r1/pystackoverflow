@@ -1,6 +1,9 @@
 import os
 
 import telebot
+from telebot import apihelper
+
+apihelper.ENABLE_MIDDLEWARE = True
 
 # initialize bot
 bot = telebot.TeleBot(
